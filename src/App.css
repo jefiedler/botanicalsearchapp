@@ -1,3 +1,6 @@
+main {
+  background-color: #edf2f6;
+}
 .app {
   display: grid;
   grid-template-rows: auto 1fr;
@@ -12,9 +15,9 @@
   place-items: center;
   background: linear-gradient(
     200deg,
-    rgba(226, 255, 214, 1) 0%,
-    rgba(86, 199, 93, 1) 50%,
-    rgba(170, 255, 0, 1) 100%
+    rgba(178, 190, 7, 1) 0%,
+    rgba(166, 189, 75, 1) 50%,
+    rgba(255, 235, 60, 1) 100%
   );
 }
 

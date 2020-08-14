@@ -2,6 +2,8 @@
   display: grid;
   grid-template-rows: auto 1fr;
   padding: 10px;
+  background-color: #66726c;
+  border: 10px;
 }
 
 .card_body {
@@ -10,7 +12,8 @@
 }
 
 .card_body-title {
-  margin: 0;
+  margin: 5px;
+  text-align: center;
 }
 
 .card_body-text {
