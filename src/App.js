@@ -4,8 +4,15 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="">Botanical Search</header>
+    <div className="app">
+      <header className="app_headerNav">
+        <span className="app_headerNav-text">Botanical Search</span>
+        <input
+          className="app_headerNav-searchBar"
+          placeholder="Search a Plant"
+        />
+      </header>
+      <main>test</main>
     </div>
   );
 }

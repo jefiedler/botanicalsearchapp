@@ -1,2 +1,25 @@
-.App {
+.app {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+}
+
+.app_headerNav {
+  font-size: 1.2rem;
+  display: grid;
+  grid-row: auto;
+  padding: 10px;
+  place-items: center;
+  background: linear-gradient(
+    200deg,
+    rgba(226, 255, 214, 1) 0%,
+    rgba(86, 199, 93, 1) 50%,
+    rgba(170, 255, 0, 1) 100%
+  );
+}
+
+.app_headerNav-text {
+}
+
+.app_headerNav-searchBar {
 }
