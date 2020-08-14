@@ -1,6 +1,6 @@
 import React from "react";
-
 import "./App.css";
+import Card from "./componens/CardElement";
 
 function App() {
   return (
@@ -12,7 +12,9 @@ function App() {
           placeholder="Search a Plant"
         />
       </header>
-      <main>test</main>
+      <main>
+        <Card />
+      </main>
     </div>
   );
 }

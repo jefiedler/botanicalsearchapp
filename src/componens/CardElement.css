@@ -1,0 +1,17 @@
+.card {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  padding: 10px;
+}
+
+.card_body {
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.card_body-title {
+  margin: 0;
+}
+
+.card_body-text {
+}
