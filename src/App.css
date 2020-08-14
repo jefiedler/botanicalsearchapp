@@ -1,2 +1,28 @@
-.App {
+main {
+  background-color: #edf2f6;
+}
+.app {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+}
+
+.app_headerNav {
+  font-size: 1.2rem;
+  display: grid;
+  grid-row: auto;
+  padding: 10px;
+  place-items: center;
+  background: linear-gradient(
+    200deg,
+    rgba(178, 190, 7, 1) 0%,
+    rgba(166, 189, 75, 1) 50%,
+    rgba(255, 235, 60, 1) 100%
+  );
+}
+
+.app_headerNav-text {
+}
+
+.app_headerNav-searchBar {
 }
