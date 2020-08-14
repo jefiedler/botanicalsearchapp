@@ -1,8 +1,14 @@
 import React from "react";
 import "./App.css";
 import Card from "./componens/CardElement";
+import { fetchApiData } from "./api/botanicApi";
+require("dotenv").config();
 
 function App() {
+  const [plants, setPlants] = React.useState(null);
+
+  const fetchPlants = fetchApiData();
+  console.log(fetchPlants);
   return (
     <div className="app">
       <header className="app_headerNav">
