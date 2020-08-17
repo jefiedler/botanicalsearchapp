@@ -1,7 +1,9 @@
-import React from "react";
+import React, { Children } from "react";
 
-function CardBody(props) {
-  return <div></div>;
+function CardBody(children) {
+  return <div className="card_body">
+    {children}
+  </div>;
 }
 
 export default CardBody;

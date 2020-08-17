@@ -8,6 +8,7 @@ function App() {
 
   const fetchPlants = fetchApiData();
   console.log(fetchPlants);
+
   return (
     <div className="app">
       <header className="app_headerNav">
@@ -16,6 +17,7 @@ function App() {
           className="app_headerNav-searchBar"
           placeholder="Search a Plant"
         />
+        <button>Fetch Plant</button>
       </header>
       <main>
         <Card></Card>
