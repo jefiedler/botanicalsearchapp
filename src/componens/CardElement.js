@@ -1,10 +1,11 @@
 import React from "react";
 import "./CardElement.css";
 
-function Card() {
+function Card({ children }) {
   return (
     <div className="card">
-      <img className="card_img" src="" alt="#" />
+      {children}
+      {/* <img className="card_img" src="" alt="#" />
       <div className="card_body">
         <p className="card_body-title">First palnt</p>
         <p className="card_body-text">
@@ -14,10 +15,10 @@ function Card() {
           rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
           ipsum dolor sit amet.
         </p>
-        {/* <a className="card_body-link" href="#">
+        <a className="card_body-link" href="#">
           Test
-        </a> */}
-      </div>
+        </a>
+      </div> */}
     </div>
   );
 }

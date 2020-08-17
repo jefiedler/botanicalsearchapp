@@ -2,7 +2,6 @@
   display: grid;
   grid-template-rows: auto 1fr;
   padding: 10px;
-  background-color: #66726c;
   border: 10px;
 }
 
