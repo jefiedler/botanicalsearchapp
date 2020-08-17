@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Card from "./componens/CardElement";
+import List from "./componens/List";
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
         />
       </header>
       <main>
-        <Card />
+        <List>
+          
+        </List>
       </main>
     </div>
   );
