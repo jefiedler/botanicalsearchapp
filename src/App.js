@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import Card from "./componens/CardElement";
 import { fetchApiData } from "./api/botanicApi";
-require("dotenv").config();
 
 function App() {
   const [plants, setPlants] = React.useState(null);
@@ -19,7 +18,7 @@ function App() {
         />
       </header>
       <main>
-        <Card />
+        <Card></Card>
       </main>
     </div>
   );
