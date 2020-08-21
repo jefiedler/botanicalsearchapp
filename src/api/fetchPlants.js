@@ -2,10 +2,10 @@ export async function fetchPlants() {
     const respons = await fetch("http://localhost:3333/plants/");
 
     if (!respons.ok){
-        throw error;
+        throw new Error(Error);
     }
 
-    const answer = await respons.json();
+    const plants = await respons.json();
 
-    return answer;
+    return plants;
 }
