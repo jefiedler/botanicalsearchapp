@@ -33,7 +33,6 @@ function App() {
                 <button>Fetch Plant</button>
               </header>
               <main>
-                <Card></Card>
               </main>
             </div>
           <ListPlant/>
