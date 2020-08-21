@@ -5,7 +5,6 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import "./App.css";
 import Home from "./pages/Home";
 import AddPlant from "./pages/AddPlant";
 import DetailsPlant from "./pages/DetailsPlant";

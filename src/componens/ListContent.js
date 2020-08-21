@@ -1,6 +1,6 @@
 import React from 'react';
 import { useQuery } from 'react-query';
-import { fetchPlants } from '../api/fetchPlants';
+import { fetchPlants } from '../api/apiPlants';
 import Plant from './Plant';
 
 

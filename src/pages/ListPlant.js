@@ -1,8 +1,10 @@
 import React from 'react';
-import PlantListHeader from '../componens/Headers/PlantListHeader';
 import ListContent from '../componens/ListContent';
+import PlantListHeader from '../componens/headers/PlantListHeader';
 
-function ListPlant(props) {
+
+
+function ListPlant() {
     return (
         <>
             <PlantListHeader/>

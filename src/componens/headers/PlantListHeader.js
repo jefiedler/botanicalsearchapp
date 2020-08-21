@@ -5,10 +5,12 @@ function PlantListHeader() {
         <>
         <header>
             <h1>Plants</h1>
-            <input placeholder="Search a Plant"/>
+            {/* <input placeholder="Search a Plant"/> */}
         </header>
         </>
     );
 }
 
 export default PlantListHeader;
+
+// Style
