@@ -7,8 +7,9 @@ function Plant({plant}) {
 
     return (
         <div>
-            <h2>{plant.GermanName}</h2>
-            <p>{plant.Species}</p>
+            {/* <img href={plant.plantImg} alt={plant.species} /> */}
+            <h2>{plant.germanName}</h2>
+            <p>{plant.species}</p>
         </div>
     );
 }
