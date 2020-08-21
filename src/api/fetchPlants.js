@@ -1,11 +1,11 @@
-import React from 'react';
+export async function fetchPlants() {
+    const respons = await fetch("http://localhost:3333/plants/");
 
-function fetchPlants() {
-    return (
-        <div>
-            
-        </div>
-    );
+    if (!respons.ok){
+        throw error;
+    }
+
+    const answer = await respons.json();
+
+    return answer;
 }
-
-export default fetchPlants;
