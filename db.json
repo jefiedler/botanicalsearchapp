@@ -1,5 +1,25 @@
 {
-    "plants": [
-      
-    ]
-  }
+  "plants": [
+    {
+      "genus": "Lavender (Lavandula)",
+      "species": "Lavandula angustifolia",
+      "germanName": "Echter Lavendel",
+      "plantImg": "https://upload.wikimedia.org/wikipedia/commons/4/40/Lavandula_angustifolia_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-087.jpg",
+      "id": 1
+    },
+    {
+      "genus": "Chamomile (Matricaria)",
+      "species": "Matricaria chamomilla",
+      "germanName": "Echte Kamille",
+      "plantImg": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Matricaria_recutita_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-091.jpg",
+      "id": 2
+    },
+    {
+      "genus": "Eyebright (Euphrasia)",
+      "species": "Euphrasia rostkoviana",
+      "germanName": "Gemeiner Augentrost",
+      "plantImg": "https://upload.wikimedia.org/wikipedia/commons/9/97/Illustration_Euphrasia_rostkoviana0_clean.jpg",
+      "id": 3
+    }
+  ]
+}
