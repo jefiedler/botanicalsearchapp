@@ -32,8 +32,6 @@ function App() {
                 />
                 <button>Fetch Plant</button>
               </header>
-              <main>
-              </main>
             </div>
           <ListPlant/>
         </Route>
